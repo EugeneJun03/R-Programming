@@ -10,8 +10,8 @@ mean(APT_income, trim=0.1)  #10%절사평균
 
 #최빈값 생성을 위한 함수 사용
 mode <- function(v) {
-    uniqv <- unique(v)
-    uniqv[which.max(tabulate(match(v, uniqv)))] #data항목중에서 빈도수가 높은 값 도출
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))] #data항목중에서 빈도수가 높은 값 도출
 }
 mode(APT_income)    #최빈값
 
