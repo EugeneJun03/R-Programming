@@ -1,5 +1,5 @@
 blood <- c(9, 10, 8, 13)    #혈핵형 빈도
-names(blood) <- c("A", "b", "AB", "O")  #라벨링
+names(blood) <- c("A", "B", "AB", "O")  #라벨링
 blood
 prop.table(blood)       #상대도수 분포표
 
